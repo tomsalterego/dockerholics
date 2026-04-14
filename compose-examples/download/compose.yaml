@@ -216,7 +216,7 @@ services:
   # Qbittorrent - default creds are admin & adminadmin
   #
   qbittorrent:
-    image: hotio/qbittorrent
+    image: ghcr.io/hotio/qbittorrent
     container_name: qbittorrent
     environment:
       - PUID=$PUID
